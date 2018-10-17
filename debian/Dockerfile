@@ -1,6 +1,6 @@
 FROM sidereal/jre8
 
-ENV GRADLE_VER=4.9 GRADLE_HOME=/opt/gradle PATH=/opt/gradle/bin:${PATH}
+ENV GRADLE_VER=4.10.2 GRADLE_HOME=/opt/gradle PATH=/opt/gradle/bin:${PATH}
 
 RUN set -x \
  && apt-get update && apt-get install -y unzip \
